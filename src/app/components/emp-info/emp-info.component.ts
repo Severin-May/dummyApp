@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RecordsService } from '../records.service';
+import { RecordsService } from '../../records.service';
 
 @Component({
   selector: 'app-emp-info',
