@@ -9,7 +9,9 @@ import { FormComponent } from './components/form/form.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { CoursesComponent } from './components/courses/courses.component';
-import { FooterComponent } from './components/footer/footer.component'; 
+import { FooterComponent } from './components/footer/footer.component';
+import { PipeComponent } from './components/pipe/pipe.component';
+import { CustompipePipe } from './custompipe.pipe'; 
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FooterComponent } from './components/footer/footer.component';
     NavbarComponent,
     IntroComponent,
     CoursesComponent,
-    FooterComponent
+    FooterComponent,
+    PipeComponent,
+    CustompipePipe
   ],
   imports: [
     BrowserModule,
